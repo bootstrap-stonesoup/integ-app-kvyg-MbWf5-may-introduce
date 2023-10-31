@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-tukr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/bootstrap/integration1-zlxh-tenant/integ-app-kvyg/hacbs-test-project-tukr@sha256:74c56f0f59fdf3f0ce0cc9de7acdbf1812a43470b83342d9cba71bd4c5865ff2
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
